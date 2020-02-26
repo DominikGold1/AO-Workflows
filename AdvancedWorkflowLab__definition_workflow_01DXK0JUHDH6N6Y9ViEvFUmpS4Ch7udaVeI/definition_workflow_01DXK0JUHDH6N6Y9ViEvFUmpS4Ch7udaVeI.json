@@ -7,30 +7,6 @@
     "base_type": "workflow",
     "variables": [
       {
-        "schema_id": "datatype.integer",
-        "properties": {
-          "value": 0,
-          "scope": "input",
-          "name": "Input",
-          "type": "datatype.integer",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01DXK1ZJDRUDW6RWGvKR6Cm8pbkY6aDuGkQ",
-        "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.integer",
-        "properties": {
-          "value": 1,
-          "scope": "local",
-          "name": "TRUE",
-          "type": "datatype.integer",
-          "is_required": false
-        },
-        "unique_name": "variable_workflow_01DXK297HAZPC2bNvhEdQ5K0rj31dO8wBB5",
-        "object_type": "variable_workflow"
-      },
-      {
         "schema_id": "datatype.string",
         "properties": {
           "value": "",
@@ -89,6 +65,30 @@
         },
         "unique_name": "variable_workflow_01DXK1SY8Z5O92RaPkAB1GtkzgL6CHnyLxs",
         "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.integer",
+        "properties": {
+          "value": 0,
+          "scope": "input",
+          "name": "Input",
+          "type": "datatype.integer",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01DXK1ZJDRUDW6RWGvKR6Cm8pbkY6aDuGkQ",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.integer",
+        "properties": {
+          "value": 1,
+          "scope": "local",
+          "name": "TRUE",
+          "type": "datatype.integer",
+          "is_required": false
+        },
+        "unique_name": "variable_workflow_01DXK297HAZPC2bNvhEdQ5K0rj31dO8wBB5",
+        "object_type": "variable_workflow"
       }
     ],
     "properties": {
@@ -96,7 +96,7 @@
         "is_atomic": false
       },
       "delete_workflow_instance": false,
-      "description": "Test",
+      "description": "Test test",
       "display_name": "Advanced Workflow Lab",
       "runtime_user": {
         "override_target_runtime_user": false,
